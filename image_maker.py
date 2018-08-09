@@ -36,7 +36,7 @@ while True:
     
     geo_data = pd.read_csv('geo_pd.csv')
 
-    for idx in range(1824): # one year
+    for idx in range(120): # one year
         tim_x = 1377986400+2*3600 - 31536000 + idx*86400 # 2012/9/1
 
         fig, ((ax1, ax2)) = plt.subplots(nrows=1, ncols=2, figsize = (25,13))
